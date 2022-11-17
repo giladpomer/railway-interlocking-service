@@ -35,6 +35,21 @@
     <Content Include="modules\check_conflicts.test.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="modules\graph-builder.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="modules\path-finder.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="modules\route-checker.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="modules\station-graph-utils.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="modules\station-state.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
