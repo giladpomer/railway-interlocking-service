@@ -1,8 +1,13 @@
 'use strict';
-var http = require('http');
+const express = require('express');
+const checkConflictsEndpointRouter = require('./endpoints/check_conflicts-endpoint');
+
+const app = express();
 var port = process.env.PORT || 1337;
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+app.use(express.json());
+app.use('/check_conflicts', checkConflictsEndpointRouter);
+
+app.listen(port, () => {
+    console.log('Running on PORT ' + port);
+});

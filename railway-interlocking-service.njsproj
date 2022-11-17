@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="endpoints\check_conflicts-endpoint.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="modules\check_conflicts.js">
       <SubType>Code</SubType>
     </Content>
@@ -56,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="modules\" />
+    <Folder Include="endpoints\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
