@@ -1,0 +1,9 @@
+{
+  "name": "railway-interlocking-service",
+  "version": "0.0.0",
+  "description": "railway-interlocking-service",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
